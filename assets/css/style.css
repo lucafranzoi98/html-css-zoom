@@ -53,6 +53,14 @@ footer{
 .align{
     text-align: center;
 }
+
+.col-2{
+    width: calc(100% / 12 * 4);
+}
+
+.col-8{
+    width: calc(100% / 12 * 8);
+}
 /* End Utilities */
 
 /* Start Header */
@@ -72,6 +80,25 @@ header a{
 /* End Header */
 
 /* Start Footer */
+.left{
+    justify-content: left;
+}
+
+.center{
+    justify-content: center;
+}
+
+.right{
+    justify-content: right;
+}
+
+.right a{
+    color: var(--z-danger);
+    line-height: 70px;
+    background-color: var(--z-secondary);
+    padding: 0 1rem;
+}
+
 .button{
     align-items: center;
     margin: 0.5rem;
@@ -83,4 +110,8 @@ header a{
 
 .arrow{
     margin: 0 0.5rem;
+}
+
+.green{
+    color: var(--z-succes);
 }
