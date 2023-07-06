@@ -9,6 +9,7 @@
     --z-dark: #000101;
     --z-primary: #232223;
     --z-secondary: #4a4b4b;
+    --z-secondary-transparent: #4a4b4b7c;
     --z-light: #fefeff;
     --z-succes: #4ac703;
     --z-danger: #ee0f0c;
@@ -36,7 +37,7 @@ a{
 
 main{
     height: calc(100vh - 50px - 70px);
-    /* background-color: var(--z-dark); */
+    background-color: var(--z-dark);
 }
 
 footer{
@@ -78,6 +79,37 @@ header a{
     font-size: var(--z-font-size);
 }
 /* End Header */
+
+/* Start Main */
+.container{
+    height: 100%;
+    padding: 1rem 5rem;
+    margin: auto;
+    overflow: auto;
+}
+
+.row{
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 250px;
+    height: 150px;
+    background-color: #000101;
+    position: relative;
+}
+
+.label{
+    position: absolute;
+    bottom: 0;
+    color: var(--z-light);
+    background-color: var(--z-secondary-transparent);
+    padding: .35rem;
+    font-family: var(--z-font-text);
+    font-size: var(--z-font-size);
+}
+/* End Main */
 
 /* Start Footer */
 .left{
