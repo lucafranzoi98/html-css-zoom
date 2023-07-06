@@ -43,8 +43,6 @@ main{
 footer{
     height: 70px;
     background-color: var(--z-primary);
-    justify-content: space-between;
-    align-items: center;
 }
 
 .flex{
@@ -74,7 +72,6 @@ header a{
     padding: 0.25rem;
     background-color: var(--z-secondary);
     border-radius: 0.25rem;
-    color: var(--z-light);
     font-family: var(--z-font-button);
     font-size: var(--z-font-size);
 }
@@ -96,7 +93,6 @@ header a{
 .card{
     width: 250px;
     height: 150px;
-    background-color: #000101;
     position: relative;
 }
 
@@ -124,19 +120,12 @@ header a{
     justify-content: right;
 }
 
-.right a{
-    color: var(--z-danger);
-    line-height: 70px;
-    background-color: var(--z-secondary);
-    padding: 0 1rem;
-}
-
 .button{
     align-items: center;
     margin: 0.5rem;
 }
 
-.icon-lg a{
+.align a{
     font-size: 1.5rem;
 }
 
@@ -146,4 +135,11 @@ header a{
 
 .green{
     color: var(--z-succes);
+}
+
+.right a{
+    color: var(--z-danger);
+    line-height: 70px;
+    background-color: var(--z-secondary);
+    padding: 0 1rem;
 }
