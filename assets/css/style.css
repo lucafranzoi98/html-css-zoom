@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Start Utilities */
+/* #region Utilities */
 :root{
     --z-dark: #000101;
     --z-primary: #232223;
@@ -60,9 +60,9 @@ footer{
 .col-8{
     width: calc(100% / 12 * 8);
 }
-/* End Utilities */
+/* #endregion Utilities */
 
-/* Start Header */
+/* #region Header */
 header>div{
     margin: 0.25rem;
     padding-top: 0.25rem;
@@ -75,9 +75,9 @@ header a{
     font-family: var(--z-font-button);
     font-size: var(--z-font-size);
 }
-/* End Header */
+/* #endregion Header */
 
-/* Start Main */
+/* #region Main */
 .container{
     height: 100%;
     padding: 1rem 5rem;
@@ -91,9 +91,13 @@ header a{
 }
 
 .card{
-    width: 250px;
-    height: 150px;
+    width: calc(100% / 5 - 1rem);
     position: relative;
+}
+
+.card img{
+    width: 100%;
+    display: flex;
 }
 
 .label{
@@ -105,9 +109,9 @@ header a{
     font-family: var(--z-font-text);
     font-size: var(--z-font-size);
 }
-/* End Main */
+/* #endregion Main */
 
-/* Start Footer */
+/* #region Footer */
 .left{
     justify-content: left;
 }
@@ -143,3 +147,4 @@ header a{
     background-color: var(--z-secondary);
     padding: 0 1rem;
 }
+/* #endregion Footer */
