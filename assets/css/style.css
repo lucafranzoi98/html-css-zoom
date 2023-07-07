@@ -88,16 +88,17 @@ header a{
 .row{
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card{
-    width: calc(100% / 5 - 1rem);
+    width: 250px;
+    height: 150px;
     position: relative;
 }
 
 .card img{
     width: 100%;
-    display: flex;
 }
 
 .label{
